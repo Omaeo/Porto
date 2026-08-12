@@ -17,25 +17,25 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://your-domain.com"),
   title: {
-    default: "Your Name | Full-stack Developer",
-    template: "%s | Your Name",
+    default: "Dewa Putra Hamdani ",
+    template: "%s | Dewa Putra Hamdani",
   },
   description:
-    "Full-stack developer creating thoughtful, accessible, and dependable web products.",
+    "a kid creating thoughtful, accessible, and dependable web products.",
   keywords: ["software developer", "full-stack developer", "portfolio", "Next.js"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Dewa Putra Hamdani" }],
   openGraph: {
-    title: "Your Name | Full-stack Developer",
+    title: "Dewa Putra Hamdani",
     description:
       "Thoughtful interfaces and dependable engineering for useful digital products.",
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "Your Name — Developer Portfolio",
+    siteName: "Dewa Putra Hamdani — Developer Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name | Full-stack Developer",
+    title: "Dewa Putra Hamdani",
     description:
       "Thoughtful interfaces and dependable engineering for useful digital products.",
   },

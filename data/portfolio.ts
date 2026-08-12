@@ -6,7 +6,7 @@ export const portfolio = {
   availability: "Currently at internship",
   email: "dewaputrahamdani@gmail.com",
   heroImage: "/hero-portrait.svg",
-  heroImageAlt: "Portrait placeholder for Your Name",
+  heroImageAlt: "TwoTime PFP",
   intro:
     "Just a student trying to find what he's good at, decided to settle in with Data Engineer for now",
   about: [
