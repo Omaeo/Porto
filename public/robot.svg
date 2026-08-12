@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Portrait placeholder</title>
+  <desc id="description">Abstract developer portrait placeholder ready to be replaced with a personal photograph.</desc>
+  <rect width="800" height="1000" fill="#0d1014"/>
+  <g stroke="#252a31" stroke-width="1" opacity=".8">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800M0 600h800M0 700h800M0 800h800M0 900h800"/>
+    <path d="M100 0v1000M200 0v1000M300 0v1000M400 0v1000M500 0v1000M600 0v1000M700 0v1000"/>
+  </g>
+  <circle cx="400" cy="355" r="155" fill="#171c22" stroke="#4dffc3" stroke-width="3"/>
+  <path d="M165 902c20-226 95-350 235-350s215 124 235 350" fill="#171c22" stroke="#4dffc3" stroke-width="3"/>
+  <path d="M326 327h48l-52 57 52 57h-48l-52-57 52-57ZM474 327h-48l52 57-52 57h48l52-57-52-57Z" fill="#4dffc3" opacity=".9"/>
+  <path d="M340 480h120" stroke="#929aa5" stroke-width="3"/>
+  <g fill="#929aa5" font-family="monospace" font-size="18" letter-spacing="3">
+    <text x="32" y="50">PORTRAIT_PLACEHOLDER.JPG</text>
+    <text x="32" y="970">REPLACE IN /PUBLIC</text>
+  </g>
+  <g fill="#4dffc3">
+    <rect x="16" y="16" width="40" height="3"/><rect x="16" y="16" width="3" height="40"/>
+    <rect x="744" y="16" width="40" height="3"/><rect x="781" y="16" width="3" height="40"/>
+    <rect x="16" y="981" width="40" height="3"/><rect x="16" y="944" width="3" height="40"/>
+    <rect x="744" y="981" width="40" height="3"/><rect x="781" y="944" width="3" height="40"/>
+  </g>
+</svg>

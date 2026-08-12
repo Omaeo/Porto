@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Next.js build output and deployment state
+.next/
+out/
+.vercel/
+
+# Test and tooling output
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment files and local configuration (may contain secrets)
+.env
+.env.*
+!.env.example
+file.env
+*.env
+.npmrc
+.yarnrc
+.netrc
+
+# Credentials, private keys, and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+secrets*.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local archives and temporary files
+*.zip
+*.tar
+*.gz
+tmp/
+temp/
