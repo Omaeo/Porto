@@ -63,7 +63,7 @@ export function Hero() {
               <div aria-hidden="true" className="absolute inset-0 bg-signal/5 mix-blend-color" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-canvas via-canvas/80 to-transparent px-4 pb-4 pt-16">
                 <figcaption className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink">
-                  Portrait / 001
+                  Portrait of ████
                 </figcaption>
                 <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-signal">
                   Available
@@ -86,11 +86,26 @@ export function Hero() {
                 profile.ts
               </span>
             </div>
-            <p><span className="text-red">TS2322: Type &apos;string&apos; is not assignable to type &apos;number&apos;.<br></br>
-                                          src/utils.ts:18:7<br></br>
-                                          18 const age: number = &quot;17&quot;;<br></br>
-                                                  ~~~
-            </span></p>
+            <div aria-label="Profile data" className="text-muted">
+              <p>
+                <span className="text-signal">const</span>{" "}
+                <span className="text-ink">profile</span> = {"{"}
+              </p>
+              <p className="pl-4">
+                name: <span className="text-ink">&quot;{portfolio.name}&quot;</span>,
+              </p>
+              <p className="pl-4">
+                role: <span className="text-ink">&quot;{portfolio.role}&quot;</span>,
+              </p>
+              <p className="pl-4">
+                location: <span className="text-ink">&quot;{portfolio.location}&quot;</span>,
+              </p>
+              <p className="pl-4">
+                availability:{" "}
+                <span className="text-ink">&quot;{portfolio.availability}&quot;</span>,
+              </p>
+              <p>{"}"} as const;</p>
+            </div>
           </div>
         </aside>
       </div>

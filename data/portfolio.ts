@@ -1,14 +1,14 @@
 export const portfolio = {
   name: "Dewa Putra Hamdani",
   shortName: "Dewa",
-  role: "Data Engineer",
+  role: "Full-stack Developer",
   location: "Samarinda, Indonesia",
   availability: "Currently at internship",
   email: "dewaputrahamdani@gmail.com",
   heroImage: "/hero-portrait.svg",
   heroImageAlt: "TwoTime PFP",
   intro:
-    "Just a student trying to find what he's good at, decided to settle in with Data Engineer for now",
+    "Just a student trying to find what he's good at, trying to learn and explore new things everyday.",
   about: [
     "I am Dewa, i really like Technology and Internet as a whole. I've been surfing through out the internet ever since i was a kid, finding new things everyday including coding at some point.",
     "I enjoy turning complex requirements into simple experiences, improving the systems behind them, and collaborating with people who care about the details.",
@@ -65,7 +65,7 @@ export const portfolio = {
         "A web application that classifies the financial health of small and medium-sized enterprises (UMKM) based on their financial data, providing insights and recommendations for improvement.",
       tags: ["Python", "Streamlit", "Google Colab"],
       year: "2025",
-      status: "Design and development",
+      status: "Data analysis and visualization",
       liveUrl: "https://example.com",
       repoUrl: "https://github.com/yourusername/frame-archive",
     },
