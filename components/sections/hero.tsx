@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import { ButtonLink } from "@/components/ui/button-link";
 import { portfolio } from "@/data/portfolio";
+import { useI18n } from "@/lib/i18n";
 
 export function Hero() {
+  const { t } = useI18n();
   const nameParts = portfolio.name.trim().split(/\s+/);
 
   return (
@@ -18,11 +22,11 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-signal opacity-50" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-signal" />
             </span>
-            {portfolio.availability}
+            {t.hero.availability}
           </div>
 
           <p className="mb-5 font-mono text-xs uppercase tracking-[0.22em] text-muted">
-            {portfolio.role} / {portfolio.location}
+            {t.hero.role} / {t.hero.location}
           </p>
           <h1 className="max-w-5xl font-mono text-[clamp(3.5rem,10vw,9.5rem)] font-semibold uppercase leading-[0.82] tracking-[-0.085em] text-ink">
             {nameParts.map((part, index) => (
@@ -37,12 +41,12 @@ export function Hero() {
             ))}
           </h1>
           <p className="mt-9 max-w-xl text-lg leading-8 text-muted sm:text-xl">
-            {portfolio.intro}
+            {t.hero.intro}
           </p>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <ButtonLink href="#work">Explore selected work</ButtonLink>
+            <ButtonLink href="#work">{t.hero.exploreWork}</ButtonLink>
             <ButtonLink href={`mailto:${portfolio.email}`} variant="secondary">
-              Send an email
+              {t.hero.sendEmail}
             </ButtonLink>
           </div>
         </div>
@@ -53,7 +57,7 @@ export function Hero() {
             <span aria-hidden="true" className="absolute -bottom-px -right-px z-10 h-6 w-6 border-b-2 border-r-2 border-signal" />
             <div className="relative aspect-[4/5] overflow-hidden bg-canvas">
               <Image
-                alt={portfolio.heroImageAlt}
+                alt={t.hero.portrait}
                 className="object-cover grayscale transition duration-500 group-hover:grayscale-0"
                 fill
                 priority
@@ -63,18 +67,18 @@ export function Hero() {
               <div aria-hidden="true" className="absolute inset-0 bg-signal/5 mix-blend-color" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-canvas via-canvas/80 to-transparent px-4 pb-4 pt-16">
                 <figcaption className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink">
-                  Portrait of ████
+                  {t.hero.portrait}
                 </figcaption>
                 <span className="font-mono text-[9px] uppercase tracking-[0.14em] text-signal">
-                  Available
+                  {t.hero.available}
                 </span>
               </div>
             </div>
           </figure>
 
           <div className="flex items-center justify-between border-x border-line px-3 font-mono text-[9px] uppercase tracking-[0.16em] text-muted">
-            <span>UTC + 8 (WITA — Central Indonesia Time). </span>
-            <span>Based in {portfolio.location}</span>
+            <span>{t.hero.timezone}</span>
+            <span>{t.hero.basedIn} {t.hero.location}</span>
           </div>
 
           <div className="border border-line bg-panel p-4 font-mono text-[11px] leading-5 shadow-signal">
@@ -86,7 +90,7 @@ export function Hero() {
                 profile.ts
               </span>
             </div>
-            <div aria-label="Profile data" className="text-muted">
+            <div aria-label={t.hero.profileData} className="text-muted">
               <p>
                 <span className="text-signal">const</span>{" "}
                 <span className="text-ink">profile</span> = {"{"}
@@ -95,14 +99,14 @@ export function Hero() {
                 name: <span className="text-ink">&quot;{portfolio.name}&quot;</span>,
               </p>
               <p className="pl-4">
-                role: <span className="text-ink">&quot;{portfolio.role}&quot;</span>,
+                role: <span className="text-ink">&quot;{t.hero.role}&quot;</span>,
               </p>
               <p className="pl-4">
-                location: <span className="text-ink">&quot;{portfolio.location}&quot;</span>,
+                location: <span className="text-ink">&quot;{t.hero.location}&quot;</span>,
               </p>
               <p className="pl-4">
                 availability:{" "}
-                <span className="text-ink">&quot;{portfolio.availability}&quot;</span>,
+                <span className="text-ink">&quot;{t.hero.availability}&quot;</span>,
               </p>
               <p>{"}"} as const;</p>
             </div>

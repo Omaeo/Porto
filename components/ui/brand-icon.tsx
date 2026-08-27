@@ -7,7 +7,6 @@ import {
   SiGithub,
   SiGooglecolab,
   SiHtml5,
-  SiInstagram,
   SiJavascript,
   SiLaragon,
   SiMysql,
@@ -21,6 +20,7 @@ import {
   SiVercel,
   SiXampp,
 } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa6";
 import { LuCodeXml, LuDatabase } from "react-icons/lu";
 import { VscVscode } from "react-icons/vsc";
 
@@ -33,9 +33,9 @@ const icons: Record<string, IconType> = {
   GitHub: SiGithub,
   "Google Colab": SiGooglecolab,
   HTML: SiHtml5,
-  Instagram: SiInstagram,
   JavaScript: SiJavascript,
   Laragon: SiLaragon,
+  LinkedIn: FaLinkedin,
   MySQL: SiMysql,
   "Next.js": SiNextdotjs,
   "Node.js": SiNodedotjs,

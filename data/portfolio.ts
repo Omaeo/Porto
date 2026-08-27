@@ -7,6 +7,9 @@ export const portfolio = {
   email: "dewaputrahamdani@gmail.com",
   heroImage: "/hero-portrait.svg",
   heroImageAlt: "TwoTime PFP",
+  cv: {
+    file: "/Dewa_Putra_Hamdani_CV.pdf",
+  },
   intro:
     "Just a student trying to find what he's good at, trying to learn and explore new things everyday.",
   about: [
@@ -46,6 +49,15 @@ export const portfolio = {
       status: "Design and developmentx",
       liveUrl: "https://example.com",
       repoUrl: "https://github.com/yourusername/signal-dashboard",
+      preview: {
+        description:
+          "The Nature Tour application allows users to explore and book nature tours in Nusa Tenggara Timur. It was made for school project purposes, and it provides information about destinations, itineraries, and booking options. The application was built using HTML, Bootstrap CSS, PHP, Laragon, and MySQL.",
+        images: [
+          "/Natour Preview (1).webp",
+          "/Natour Preview (2).webp",
+          "/Natour Preview (3).webp",
+        ],
+      },
     },
     {
       number: "02",
@@ -57,6 +69,15 @@ export const portfolio = {
       status: "Full-stack build",
       liveUrl: "https://example.com",
       repoUrl: "https://github.com/yourusername/northstar-commerce",
+      preview: {
+        description:
+          "The Class Financial Management Web application helps in tracking class expenses and generating monthly financial reports for students and teachers. It was built using HTML, Bootstrap CSS, PHP, XAMPP, and MySQL.",
+        images: [
+          "/kas kelas preview (1).webp",
+          "/kas kelas preview (2).webp",
+          "/kas kelas preview (3).webp",
+        ],
+      },
     },
     {
       number: "03",
@@ -68,17 +89,16 @@ export const portfolio = {
       status: "Data analysis and visualization",
       liveUrl: "https://example.com",
       repoUrl: "https://github.com/yourusername/frame-archive",
+      preview: {
+        description:
+          "The UMKM Financial Classification application uses Python, Streamlit, and Google Colab to analyze and visualize the financial health of small and medium-sized enterprises. It provides insights and recommendations for improvement based on their financial data.",
+        images: [
+          "/project-preview-01.svg",
+        ],
+      },
     },
   ],
-  education: [
-    {
-      period: "2021 — 2024",
-      degree: "Normal Student",
-      institution: "SMP NEGERI 14 SAMARINDA",
-      mapsUrl:
-        "https://maps.app.goo.gl/tvMWVgNJySYVAgDo6",
-      note: "Surfing in the Internet everyday ",
-    },
+  learningPath: [
     {
       period: "Ongoing",
       degree: "Pengembangan Perangkat Lunak dan Gim",
@@ -87,13 +107,30 @@ export const portfolio = {
         "https://maps.app.goo.gl/u95JHnUQBpijP1ia9",
       note: "Web Programmer, Internship, and Data Engineer",
     },
+    {
+      period: "2021 — 2024",
+      degree: "Normal Student",
+      institution: "SMP NEGERI 14 SAMARINDA",
+      mapsUrl:
+        "https://maps.app.goo.gl/tvMWVgNJySYVAgDo6",
+      note: "Surfing in the Internet everyday ",
+    },
+  ],
+  certifications: [
+    {
+      title: "Koding dan Kecerdasan Artifisial",
+      issuer: "Certificate of Completion",
+      description:
+        "A certificate recognizing participation and learning in coding and artificial intelligence.",
+      file: "/DewaPutraHamdani Sertifikat KA-AI.pdf",
+    },
   ],
   socials: [
     { label: "GitHub", href: "https://github.com/Omaeo", icon: "GitHub" },
     {
-      label: "Instagram",
-      href: "https://www.instagram.com/dew_ty2/",
-      icon: "Instagram",
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/dewa-putra-76a72842b/",
+      icon: "LinkedIn",
     },
   ],
 } as const;
@@ -102,5 +139,6 @@ export const navigation = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Work", href: "#work" },
-  { label: "Education", href: "#education" },
+  { label: "Learning Path", href: "#learning-path" },
+  { label: "Contact Me", href: "#contact" },
 ] as const;

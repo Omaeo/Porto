@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" fill="none">
+  <rect width="1400" height="900" fill="#090B0E"/>
+  <rect x="32" y="32" width="1336" height="836" fill="#101318" stroke="#252A31" stroke-width="2"/>
+  <path d="M32 112H1368" stroke="#252A31" stroke-width="2"/>
+  <circle cx="76" cy="72" r="10" fill="#4DFFC3"/>
+  <circle cx="112" cy="72" r="10" fill="#52D9FF" fill-opacity=".5"/>
+  <circle cx="148" cy="72" r="10" fill="#929AA5" fill-opacity=".35"/>
+  <rect x="198" y="54" width="480" height="36" fill="#090B0E" stroke="#252A31"/>
+  <rect x="72" y="158" width="1224" height="96" fill="#090B0E" stroke="#252A31"/>
+  <rect x="108" y="190" width="280" height="30" fill="#F5F7FA" fill-opacity=".88"/>
+  <rect x="1100" y="180" width="160" height="50" fill="#4DFFC3"/>
+  <rect x="72" y="294" width="786" height="494" fill="#090B0E" stroke="#252A31"/>
+  <path d="M136 694L270 564L376 620L516 416L632 492L794 352" stroke="#4DFFC3" stroke-width="6"/>
+  <path d="M136 720H794M136 640H794M136 560H794M136 480H794M136 400H794" stroke="#252A31"/>
+  <circle cx="270" cy="564" r="9" fill="#4DFFC3"/>
+  <circle cx="516" cy="416" r="9" fill="#4DFFC3"/>
+  <circle cx="794" cy="352" r="9" fill="#4DFFC3"/>
+  <rect x="898" y="294" width="398" height="222" fill="#090B0E" stroke="#252A31"/>
+  <rect x="930" y="330" width="166" height="18" fill="#929AA5" fill-opacity=".45"/>
+  <rect x="930" y="378" width="302" height="58" fill="#F5F7FA" fill-opacity=".85"/>
+  <rect x="898" y="556" width="398" height="232" fill="#090B0E" stroke="#252A31"/>
+  <circle cx="1000" cy="670" r="70" stroke="#4DFFC3" stroke-width="24" stroke-dasharray="290 150"/>
+  <rect x="1110" y="618" width="142" height="16" fill="#929AA5" fill-opacity=".4"/>
+  <rect x="1110" y="660" width="112" height="16" fill="#929AA5" fill-opacity=".3"/>
+  <rect x="1110" y="702" width="126" height="16" fill="#929AA5" fill-opacity=".3"/>
+  <text x="72" y="842" fill="#929AA5" font-family="monospace" font-size="18" letter-spacing="4">PLACEHOLDER / ANALYTICS</text>
+</svg>

@@ -1,17 +1,22 @@
+"use client";
+
 import { ArrowIcon } from "@/components/ui/arrow-icon";
 import { getBrandIcon } from "@/components/ui/brand-icon";
 import { portfolio } from "@/data/portfolio";
+import { useI18n } from "@/lib/i18n";
 
 export function Contact() {
+  const { t } = useI18n();
+
   return (
     <section className="relative overflow-hidden" id="contact">
       <div aria-hidden="true" className="contact-glow absolute inset-0 -z-10" />
       <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 lg:px-12 lg:py-36">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-signal">
-          {"// Start a conversation"}
+          {`// ${t.contact.eyebrow}`}
         </p>
         <h2 className="mt-8 max-w-6xl font-mono text-[clamp(3rem,9vw,8rem)] font-semibold uppercase leading-[0.88] tracking-[-0.08em] text-ink">
-          Contact and Social Media links
+          {t.contact.title}
         </h2>
         <a
           className="group mt-12 inline-flex max-w-full items-center gap-4 border-b border-signal pb-3 font-mono text-lg text-ink transition-colors hover:text-signal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-signal sm:text-3xl"
@@ -42,7 +47,7 @@ export function Contact() {
             })}
           </div>
           <p className="font-mono text-[10px] uppercase leading-5 tracking-[0.16em] text-muted md:text-right">
-            Designed and built by someone
+            {t.contact.credit}
           </p>
         </div>
       </div>

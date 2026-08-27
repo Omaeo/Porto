@@ -1,20 +1,27 @@
+"use client";
+
 import { getBrandIcon } from "@/components/ui/brand-icon";
+import { ProjectPreview } from "@/components/project-preview";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Tag } from "@/components/ui/tag";
-import { portfolio } from "@/data/portfolio";
+import { getLocalizedProjects } from "@/data/project-translations";
+import { useI18n } from "@/lib/i18n";
 
 export function Projects() {
+  const { locale, t } = useI18n();
+  const projects = getLocalizedProjects(locale);
+
   return (
     <section className="scroll-mt-20 border-b border-line" id="work">
       <div className="mx-auto max-w-[1440px] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <SectionHeading
-          description="A selection of product-focused work spanning interface design, application architecture, and production delivery."
-          eyebrow="Selected work"
-          title="Selective works."
+          description={t.projects.description}
+          eyebrow={t.projects.eyebrow}
+          title={t.projects.title}
         />
 
         <div>
-          {portfolio.projects.map((project) => (
+          {projects.map((project) => (
             <article
               className="group grid gap-8 border-b border-line py-10 transition-colors lg:grid-cols-[5rem_1.4fr_1fr] lg:items-center lg:gap-12 lg:py-14"
               key={project.number}
@@ -44,6 +51,7 @@ export function Projects() {
                 <p className="mb-6 font-mono text-[10px] uppercase tracking-[0.16em] text-muted">
                   {project.status}
                 </p>
+                <ProjectPreview project={project} />
               </div>
             </article>
           ))}

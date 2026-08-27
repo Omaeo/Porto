@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" fill="none">
+  <rect width="1400" height="900" fill="#090B0E"/>
+  <rect x="32" y="32" width="1336" height="836" fill="#101318" stroke="#252A31" stroke-width="2"/>
+  <path d="M32 112H1368" stroke="#252A31" stroke-width="2"/>
+  <circle cx="76" cy="72" r="10" fill="#4DFFC3"/>
+  <circle cx="112" cy="72" r="10" fill="#52D9FF" fill-opacity=".5"/>
+  <circle cx="148" cy="72" r="10" fill="#929AA5" fill-opacity=".35"/>
+  <rect x="198" y="54" width="480" height="36" fill="#090B0E" stroke="#252A31"/>
+  <rect x="72" y="168" width="420" height="24" fill="#4DFFC3" fill-opacity=".8"/>
+  <rect x="72" y="218" width="760" height="68" fill="#F5F7FA" fill-opacity=".9"/>
+  <rect x="72" y="310" width="610" height="18" fill="#929AA5" fill-opacity=".5"/>
+  <rect x="72" y="344" width="520" height="18" fill="#929AA5" fill-opacity=".35"/>
+  <rect x="72" y="404" width="174" height="54" fill="#4DFFC3"/>
+  <rect x="268" y="404" width="174" height="54" fill="#101318" stroke="#4DFFC3"/>
+  <rect x="892" y="168" width="404" height="290" fill="#090B0E" stroke="#252A31"/>
+  <path d="M928 410L1022 304L1082 358L1168 244L1260 410H928Z" fill="#4DFFC3" fill-opacity=".16" stroke="#4DFFC3"/>
+  <rect x="72" y="540" width="1224" height="2" fill="#252A31"/>
+  <rect x="72" y="602" width="374" height="194" fill="#090B0E" stroke="#252A31"/>
+  <rect x="488" y="602" width="374" height="194" fill="#090B0E" stroke="#252A31"/>
+  <rect x="904" y="602" width="392" height="194" fill="#090B0E" stroke="#252A31"/>
+  <text x="72" y="842" fill="#929AA5" font-family="monospace" font-size="18" letter-spacing="4">PLACEHOLDER / LANDING PAGE</text>
+</svg>
