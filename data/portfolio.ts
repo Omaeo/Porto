@@ -93,7 +93,7 @@ export const portfolio = {
         description:
           "The UMKM Financial Classification application uses Python, Streamlit, and Google Colab to analyze and visualize the financial health of small and medium-sized enterprises. It provides insights and recommendations for improvement based on their financial data.",
         images: [
-          "/project-preview-01.svg",
+          "/umkm1.png",
         ],
       },
     },
