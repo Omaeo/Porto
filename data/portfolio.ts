@@ -11,7 +11,7 @@ export const portfolio = {
     file: "/Dewa_Putra_Hamdani_CV.pdf",
   },
   intro:
-    "Just a student trying to find what he's good at, trying to learn and explore new things everyday.",
+    "Just a student that's interested in internet and coding primarily python. Trying to explore things everyday. ",
   about: [
     "I am Dewa, i really like Technology and Internet as a whole. I've been surfing through out the internet ever since i was a kid, finding new things everyday including coding at some point.",
     "I enjoy turning complex requirements into simple experiences, improving the systems behind them, and collaborating with people who care about the details.",

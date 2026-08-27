@@ -23,7 +23,7 @@ const translations = {
       location: "Samarinda, Indonesia",
       availability: "Currently at internship",
       intro:
-        "Just a student trying to find what he's good at, trying to learn and explore new things every day.",
+        "Just a student that's interested in internet and coding primarily python. Trying to explore things everyday. ",
       exploreWork: "Explore selected work",
       sendEmail: "Send an email",
       portrait: "Portrait of Dewa",
@@ -118,7 +118,7 @@ const translations = {
       location: "Samarinda, Indonesia",
       availability: "Sedang menjalani magang",
       intro:
-        "Seorang pelajar yang sedang mencari bidang terbaiknya sambil terus belajar dan mengeksplorasi hal-hal baru setiap hari.",
+        "Seorang pelajar yang tertarik dengan internet dan koding terutama python. Mencoba hal baru setiap hari.",
       exploreWork: "Lihat proyek pilihan",
       sendEmail: "Kirim email",
       portrait: "Potret Dewa",
